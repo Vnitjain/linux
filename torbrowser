@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/Downloads/installed_apps/torbrowser/
+./start-tor-browser.desktop
