@@ -1,0 +1,4 @@
+#!/bin/bash
+
+cd ~/Downloads/installed_apps/popcorntime/
+./Popcorn-Time
