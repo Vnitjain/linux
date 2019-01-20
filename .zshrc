@@ -30,3 +30,5 @@ printf "${color}               +
   ##\'                     \'##
  #\'                         \`#
  ${nc}"
+alias zshrc="vim ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
