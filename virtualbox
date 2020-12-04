@@ -1,0 +1,23 @@
+for those still having problems after instaling via pacman...
+
+first put terminal into root by typing "su" and entering password.
+
+then install virtual box
+
+pacman -S virtualbox
+then install the host modules by
+
+pacman -S virtualbox-host-modules
+then
+
+dkms autoinstall
+and then, while still as superuser.
+
+type
+
+modprobe vboxdrv
+(it will execute as normal user but it wont work, unless your on terminal as root)
+
+this should make it work
+
+(had some problem just now.....fixed it with some help from this thread...so thought id update)
